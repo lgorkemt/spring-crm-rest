@@ -39,31 +39,31 @@ create a Customer table, populate the Customer table.
    susan, test123 in the authorization tab); 
    
    
-   GET http://localhost:8080/spring-crm-rest/api/customers (Select all)
-   GET http://localhost:8080/spring-crm-rest/api/customers/1 (Select customer with having the id 1)
-   POST http://localhost:8080/spring-crm-rest/api/customers (Insert a new customer)
+    GET http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
+    GET http://localhost:8080/spring-crm-rest/api/customers/1 (Select customer with having the id 1)
+    POST http://localhost:8080/spring-crm-rest/api/customers (Insert a new customer)
    
-   Body;
+    Body;
    
-   {
+    {
    	  "id":0,
       "firstName": "Gorkem",
       "lastName": "Turan",
       "email": "gorkem@luv2code.com"
-   }
+    }
    
-   PUT http://localhost:8080/spring-crm-rest/api/customers (Update the customer with having the id 6)
+    PUT http://localhost:8080/spring-crm-rest/api/customers (Update the customer with having the id 6)
       
-   Body;
+    Body;
     
-   {
+    {
       "id":6,
       "firstName": "Gorkem",
       "lastName": "Turan",
       "email": "gorkem.turan@luv2code.com"
-   }
+    }
     
-   DELETE http://localhost:8080/spring-crm-rest/api/customers/6 (Delete the customer with the id 6)
+    DELETE http://localhost:8080/spring-crm-rest/api/customers/6 (Delete the customer with the id 6)
    
 . Also aspects are added for logging the CRUD actions. You may check your console after each action for
 the logs written by the aspects.
