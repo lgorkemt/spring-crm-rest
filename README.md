@@ -1,4 +1,4 @@
-. The application is a simple Spring rest application for allowing user to make CRUD operations on a list of customers.
+. The application is a simple Spring rest application for allowing a client to make CRUD operations on a list of customers.
 The code is written by using Chad Darby's Udemy course on Spring framework (https://www.udemy.com/spring-hibernate-tutorial/)
 
 . A Mysql DB and workbench should be installed to the local machine which the application is going to run. (MySQL can be 
@@ -9,7 +9,7 @@ downlaoded from http://dev.mysql.com/downloads)
     02-customer-tracker.sql, 
 
 These scripts would create a db user called springstudent, create the DB schema called web_customer_tracker, 
-create a Customer table, populate the Customer table.
+create a Customer table and populate the Customer table.
 
 . Open the source code for the appropriate version
 
