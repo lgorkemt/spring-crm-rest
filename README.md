@@ -35,7 +35,7 @@ create a Customer table and populate the Customer table.
       User 'susan' with the password test123 has the admin rights, can perform all actions.
   
      
-   e. If you have Postman installed, you may make the following HTTP requests (Do not forget to enter the credentials
+   e. If you have Postman installed, you may make the following HTTP requests (Do not forget to enter the credentials as
    susan, test123 in the authorization tab); 
    
    
