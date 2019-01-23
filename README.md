@@ -16,7 +16,7 @@ create a Customer table, populate the Customer table.
 . Run the application: 
    a. Select the root project folder
    b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
-   c. The application is secured by using Spring security. In memory authentication is used to store user and roles.
+   c. The application is secured by using Spring security. In memory authentication is used to store users and roles.
     (You may find the available users and their roles in DemoSecurityConfig.java)
    d. EMPLOYEE role can perform following;
    
