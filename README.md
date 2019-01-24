@@ -4,9 +4,9 @@ The code is written by using Chad Darby's Udemy course on Spring framework (http
 . A Mysql DB and workbench should be installed to the local machine which the application is going to run. (MySQL can be 
 downlaoded from http://dev.mysql.com/downloads)
 
-. Open MySql workbench and run three scripts respectively; 
+. Open MySql workbench and run these two scripts respectively; 
     01-create-user.sql, 
-    02-customer-tracker.sql, 
+    02-customer-tracker.sql
 
 These scripts would create a db user called springstudent, create the DB schema called web_customer_tracker, 
 create a Customer table and populate the Customer table.
