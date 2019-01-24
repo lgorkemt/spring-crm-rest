@@ -14,11 +14,14 @@ create a Customer table and populate the Customer table.
 . Open the source code for the appropriate version
 
 . Run the application: 
-   a. Select the root project folder
-   b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
-   c. The application is secured by using Spring security. In memory authentication is used to store users and roles.
-    (You may find the available users and their roles in DemoSecurityConfig.java)
-   d. EMPLOYEE role can perform following;
+    a. Select the root project folder
+    
+    b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
+    
+    c. The application is secured by using Spring security. In memory authentication is used to store users and roles.
+        (You may find the available users and their roles in DemoSecurityConfig.java)
+    
+    d. EMPLOYEE role can perform following;
    
       1. Get a list of all customers. GET /api/customers
       2. Get a single customer. GET /api/customers/{customerId}
@@ -35,8 +38,8 @@ create a Customer table and populate the Customer table.
       User 'susan' with the password test123 has the admin rights, can perform all actions.
   
      
-   e. If you have Postman installed, you may make the following HTTP requests (Do not forget to enter the credentials as
-   susan, test123 in the authorization tab); 
+    e. If you have Postman installed, you may make the following HTTP requests (Do not forget to enter the credentials as
+    susan, test123 in the authorization tab); 
    
    
     GET http://localhost:8080/spring-crm-rest/api/customers (Selects all customers)
