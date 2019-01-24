@@ -14,6 +14,7 @@ create a Customer table and populate the Customer table.
 . Open the source code for the appropriate version
 
 . Run the application: 
+
     a. Select the root project folder
     
     b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
